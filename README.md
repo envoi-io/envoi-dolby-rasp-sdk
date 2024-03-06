@@ -1,7 +1,7 @@
 # Envoi - Dolby RASP SDK
 
 This project is a Javascript SDK for Resource Agnostic Swarm Processing API "RASP" developed by [Dolby Laboratories](https://docs.dolby.io/)
-It provides methods and examples for interacting with the Hybrik API using Node.js 20.
+It provides methods and examples for interacting with the Dolby RASP API.
 
 Envoi is a cloud platform that automates creating, managing, and distributing 24x7, live free ad-supported streaming television "FAST", Subscription or Pay-Per-View OTT (internet delivered) channels. 
 
