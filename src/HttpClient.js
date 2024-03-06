@@ -1,5 +1,5 @@
 class HttpClient {
-	baseUrl = 'https://api.omap-dev-01.dolbyrasp.com/';
+	baseUrl = 'https://api.dolbyrasp.com/';
 
 	async get(url) {
 		const response = await fetch(this.baseUrl + url);
