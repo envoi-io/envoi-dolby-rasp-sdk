@@ -20,7 +20,6 @@ A typical API session to submit and track a transcoding job would look like this
 	Step 2 - Get RASP Asset Metadata
        GET: https://[RASP-API-ENDPOINT]/asset/[RUID]/.metadata/mediaindex-file0.json
 
-
 	Step 3 - Create RASP Asset Renditions
        PUT: https://[RASP-API-ENDPOINT]/api/asset/vurl?ruid=[RUID]
         [{"vurl":"/sd/hls.m3u8","config":{},"config_mime":"application/json","mime":"[MIME-TYPE]"}]
