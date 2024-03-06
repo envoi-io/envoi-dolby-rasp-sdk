@@ -1,0 +1,38 @@
+{
+  "extends": ["eslint:recommended", "prettier"],
+  "plugins": ["compat"],
+  "env": {
+    "browser": true,
+    "mocha": true,
+    "node": true
+  },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "module"
+  },
+  "rules": {
+    "func-names": "off",
+    "no-underscore-dangle": "off",
+    "no-prototype-builtins": "off",
+    "no-param-reassign": "off",
+    "consistent-return": "off",
+    "vars-on-top": "off",
+    "compat/compat": "error",
+    "object-shorthand": "off",
+    "prefer-template": "off",
+    "no-plusplus": "off",
+    "import/newline-after-import": "off",
+    "no-useless-return": "off",
+    "import/no-mutable-exports": "off",
+    "import/first": "off",
+    "prefer-spread": "off",
+    "prefer-rest-params": "off",
+    "lines-around-directive": "off",
+    "valid-typeof": "off",
+    "radix": "off"
+  },
+  "settings": {
+    "polyfills": []
+  }
+}

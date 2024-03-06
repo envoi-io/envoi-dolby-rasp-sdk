@@ -1,0 +1,24 @@
+{
+  "name": "envoi-dolby-rasp-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/EnvoiDolbyRaspSdk.js",
+  "scripts": {
+    "jsdocs": "jsdoc --configure .jsdoc.json --verbose",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint --fix ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-compat": "^4.2.0",
+    "eslint-plugin-import": "^2.29.1",
+    "jsdoc": "^4.0.2",
+    "jsdoc-to-markdown": "8.0.1",
+    "prettier": "^2.4.1",
+    "pretty-quick": "^3.1.1"
+  }
+}
